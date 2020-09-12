@@ -9,17 +9,7 @@
     #primary { width:100%; }
     #secondary { width:100%; margin:0; border:none; }
 }
-/* Control image sizing */
-@media (min-device-width:600px) {
-    img[data-src-600px] {
-        content: attr(data-src-600px, url);
-    }
-}
-
-@media (min-device-width:800px) {
-    img[data-src-800px] {
-        content: attr(data-src-800px, url);
-    }
+    
 
     html { font-size:100%; }
 
@@ -52,10 +42,6 @@ header{
     border-radius: 5px;
     
 }
-.textarea{
-    color: blue;
-    
-}
 .menu{
     display: block;
     margin-left: auto;
@@ -69,6 +55,7 @@ header{
     justify-content: space-around;
     width: 90%;
     height: auto;
+    padding:5px;
 }
 
 footer{
