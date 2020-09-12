@@ -31,10 +31,13 @@ header{
 }
 
 footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
     color: white;
     text-align: center ;
-    margin-top: 10px;
+    margin-top: auto;
 }
 
 .redsoc{
