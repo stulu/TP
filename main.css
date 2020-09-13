@@ -51,7 +51,7 @@ header{
     padding:10px;
     
 }
-
+/* Make responsive images in 2 rows of 3*/
 .row-container {
     display: flex;
     flex-direction: row;
@@ -72,6 +72,7 @@ header{
     height: auto;
     padding:5px;
 }
+/* Keep space between table and list in all views*/
 div1{
     display: inline-flexbox;
     justify-content: space-evenly;     
