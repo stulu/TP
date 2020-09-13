@@ -72,15 +72,17 @@ header{
     height: auto;
     padding:5px;
 }
-
-table{
+div1{
     display: inline-flexbox;
+    justify-content: space-evenly;     
+}
+.table{
+    display: block;
     justify-content: space-around;
     width: 90%;
     height: auto;
     padding:5px;
 }
-
 
 footer{
     
