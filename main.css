@@ -50,7 +50,20 @@ header{
     padding:10px;
     
 }
-/* flexbox to keep pictures spaced */
+
+.row-container {
+    display: flex;
+    flex-direction: row;
+    
+  }
+  
+  .row-container > div {
+    justify-content: space-evenly;
+    padding: 5px;
+  }
+
+  
+  /* flexbox to keep pictures spaced */
 .responsive{
     display: flex;
     justify-content: space-around;
@@ -67,6 +80,7 @@ table{
     padding:5px;
 }
 
+
 footer{
     
     bottom: 0;
@@ -74,9 +88,6 @@ footer{
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
     color: white;
     text-align: center ;  
-}
-.footer p{
-    padding-bottom: 0px;
 }
 
 .redsoc{
