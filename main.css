@@ -49,7 +49,8 @@ animation {
 	from {left:0px}
 	to {left:300px}
 }
-			
+
+
 h1{
     text-align-last: center ;
     font-size: 35px;
@@ -70,6 +71,7 @@ header{
     display: inline-flexbox;
     justify-content: space-evenly;
 }
+
 .menu{
     display: block;
     margin-left: auto;
