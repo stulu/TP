@@ -12,7 +12,20 @@
       
   }
 
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .stylechange {background: red;}
+  }
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .stylechange {background: blue;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .stylechange {background: orange;}
+  } 
  
  html { font-size:100%; }
 
@@ -34,7 +47,7 @@ animation {
 			
 @keyframes mymove {
 	from {left:0px}
-	to {left:500px}
+	to {left:300px}
 }
 			
 h1{
