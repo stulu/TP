@@ -39,12 +39,13 @@ animation {
 			
 h1{
     text-align-last: center ;
-    
+    font-size: 35px;
 }
 
 header{
         background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
         color:white;
+        height: 100px;
 }
 
 .nav{
@@ -52,7 +53,7 @@ header{
     color: white;
     text-decoration: none;
     padding: 5px, 5px;
-    border-radius: 15px;
+    border-radius: 10px;
     display: inline-flexbox;
     justify-content: space-evenly;
 }
