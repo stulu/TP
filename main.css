@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    
    
   }
  
@@ -79,10 +79,10 @@ header{
     height: 90%;
     padding:5px;
 }
-/* Keep space between table and list in all views*/
+/* Keep space between table and list in all views
 div1{
     display: inline-flexbox;
-    justify-content: space-evenly;     
+    justify-content: space-evenly;    */ 
 }
 .table{
     display: block;
