@@ -71,7 +71,8 @@ header{
   
   /* flexbox to keep pictures spaced */
 .responsive{
-    display: flex;
+    display: flex ;
+    align-items: flex-start;
     justify-content: space-around;
     width: 90%;
     height: 90%;
