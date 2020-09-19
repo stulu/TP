@@ -38,7 +38,7 @@ animation {
 }
 			
 h1{
-    text-align-last: left ;
+    text-align-last: center ;
     
 }
 
@@ -52,7 +52,7 @@ header{
     color: white;
     text-decoration: none;
     padding: 5px, 5px;
-    border-radius: 5px;
+    border-radius: 15px;
     display: inline-flexbox;
     justify-content: space-evenly;
 }
@@ -96,7 +96,7 @@ header{
 }
 
 footer{
-    position: relative;
+    position: static;
     height: 85px;
     bottom: 0;
     width: 100%;
