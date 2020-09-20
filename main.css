@@ -58,11 +58,14 @@ h1{
     font-size: 35px;
     
 }
-h2,h4{
+h2{
     font-family: Arial, Helvetica, sans-serif;
     color: seagreen;
 }
-
+h4{
+    font-family: cursive;
+    color: orange;
+}
 header{
         background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
         color:white;
@@ -112,13 +115,13 @@ header{
 .flex-container {
     display: flex;
     flex-wrap: wrap;
-    background-color: DodgerBlue;
+   
   }
 .flex-container > div {
-    background-color: #f1f1f1;
+    background-color: #80d8f3;
     margin: 10px;
-    padding: 20px;
-    font-size: 30px;
+    padding: 10px;
+    
   }
 .table{
     display: block;
@@ -127,6 +130,8 @@ header{
     height: auto;
     padding:5px;
 }
+
+
 footer{
     position: static;
     height: 85px;
