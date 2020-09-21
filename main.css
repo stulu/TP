@@ -11,6 +11,9 @@
       flex-direction: column;
       
   }
+  div{
+      display: block;
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -133,6 +136,7 @@ header{
 
 
 footer{
+    margin-top: auto;
     position: static;
     height: 85px;
     bottom: 0;
