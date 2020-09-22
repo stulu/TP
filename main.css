@@ -180,6 +180,7 @@ color: white;
 }
 .carousel {
   position:relative;
+  align-items: flex-start;
   display: flex;
   width:auto;
   border:10px solid white;
@@ -188,7 +189,6 @@ color: white;
 }
 .carousel > img {
   display:none;
-  align-items: flex-start;
   width:100%;
 }
 .carousel > input {
