@@ -13,60 +13,34 @@
   }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-    .stylechange {background: red;} 
-    .carousel {
-      position:relative;
-      display: flex;
-      width:auto;
-      border:10px solid blue;
-      margin:20px auto;
-      box-shadow:0px 0px 40px #000;
-    }
-    .regbutton {
-      font-family: arial;
-      color: yellow !important;
-      font-size: 14px;
-      text-shadow: 2px 2px 0px #7CACDE;
-      box-shadow: 4px 4px 1px #BEE2F9;
-      padding: 11px 16px;
-      border-radius: 10px;
-      border: 2px solid #e61588;
-      background: #63B8EE;
-      background: linear-gradient(to top, #63B8EE, #468CCF);
-    }
-    .regbutton:hover {
-      color: #683A6A !important;
-      background: #468CCF;
-      background: linear-gradient(to top, #468CCF, #63B8EE);
+@media only screen and (max-width: 600px) { 
+    .flex-container > div {
+      background-color: #80d8f3 ;
+      margin: 10px;
+      padding: 10px;
+      
     }
   }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {
-    .stylechange {background: blue;}
-    .regbutton {
-      font-family: arial;
-      color: #14396A !important;
-      font-size: 14px;
-      text-shadow: 2px 2px 0px #7CACDE;
-      box-shadow: 4px 4px 1px #BEE2F9;
-      padding: 11px 16px;
-      border-radius: 10px;
-      border: 2px solid yellow;
-      background: #63B8EE;
-      background: linear-gradient(to top, #63B8EE, #468CCF);
-    }
-    .regbutton:hover {
-      color: #683A6A !important;
-      background: #468CCF;
-      background: linear-gradient(to top, #468CCF, #63B8EE);
-    }
+  .flex-container > div {
+    background-color: #60f08b;
+    margin: 10px;
+    padding: 10px;
+    
+  }
+    
   } 
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .stylechange {background: white;} 
+    .flex-container > div {
+      background-color: #80d8f3;
+      margin: 10px;
+      padding: 10px;
+      
+    }
     
   } 
 
@@ -158,12 +132,12 @@ header{
     flex-wrap: wrap;
    
   }
-.flex-container > div {
+/*.flex-container > div {
     background-color: #80d8f3;
     margin: 10px;
     padding: 10px;
     
-  }
+  }*/
 .table{
     display: block;
     justify-content: space-around;
