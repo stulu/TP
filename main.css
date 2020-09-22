@@ -188,7 +188,7 @@ color: white;
 }
 .carousel > img {
   display:none;
-  height: auto;
+  align-items: flex-start;
   width:100%;
 }
 .carousel > input {
