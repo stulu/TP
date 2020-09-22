@@ -13,6 +13,9 @@
   }
 
 
+
+
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .stylechange {background: red;} 
@@ -26,7 +29,7 @@
   
   /* Large devices (laptops/desktops, 992px and up) */
   @media only screen and (min-width: 992px) {
-    .stylechange {background: orange;} 
+    .stylechange {background: white;} 
     
   } 
 
@@ -37,12 +40,12 @@
     @media (min-width:1100px) { body {font-size:1.5rem;} } 
 
 animation {
-	width: 100px;
-	height: 50px;
+	  width: 100px;
+	  height: 50px;
     font-weight: bold;
-	position: relative;
-	animation: mymove 3s ;
-	animation-iteration-count: 2;
+	  position: relative;
+	  animation: mymove 3s ;
+	  animation-iteration-count: 2;
     animation-direction: alternate;
     
 }
@@ -163,4 +166,83 @@ footer{
 .redsoc{
 
 color: white;
+}
+.carousel {
+  position:relative;
+  display: flex;
+  width:auto;
+  border:10px solid white;
+  margin:20px auto;
+  box-shadow:0px 0px 40px #000;
+}
+.carousel > img {
+  display:none;
+  width:100%;
+}
+.carousel > input {
+  position:absolute;
+  left:-9999px;
+}
+.carousel > input:checked + label + img {
+  display:block;
+}
+
+.carousel > label,
+.carousel > input:checked ~ label ~ label ~ label ~ label {
+  display:none;
+}
+.carousel > input:checked + label {
+  display:block;
+  left:0;
+}
+.carousel > input:checked ~ label ~ label ~ label {
+  display:block;
+  right:0;
+}
+
+.carousel > label {
+  position:absolute;
+  top:0;
+  width:25%;
+  height:100%;
+  visibility:hidden;
+}
+.carousel > label:before {
+  content:'';
+  display:block;
+  position:absolute;
+  width:100%;
+  height:100%;
+  visibility:visible;
+}
+.carousel > label:after {
+  display:block;
+  position:absolute;
+  top:50%;
+  width:25px;
+  height:25px;
+  line-height:22px;
+  margin:-15px 10px 0 10px;
+  background-color:black;
+  color:white;
+  font-family:'Arial';
+  font-weight:bold;
+  font-size:18px;
+  text-align:center;
+  visibility:hidden;
+  border:2px solid white;
+  border-radius:20px;
+  box-shadow:0 3px 4px black;
+}
+.carousel > label:hover:after {
+  visibility:visible;
+}
+
+.carousel > input:checked + label:after {
+  left:0;
+  content:'\00AB';
+}
+.carousel > input:checked ~ label ~ label ~ label:after {
+  right:0;
+  content:'\00BB';
 }
